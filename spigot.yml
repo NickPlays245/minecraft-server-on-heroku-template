@@ -1,14 +1,14 @@
-#This is the main configuration file for Spigot.
-#As you can see, there's tons to configure. Some options may impact gameplay, so use
-#with caution, and make sure you know what each option does before configuring.
-#For a reference for any variable inside this file, check out the Spigot wiki at
-#http://www.spigotmc.org/wiki/spigot-configuration/
-#
-#If you need help with the configuration or have any questions related to Spigot,
-#join us at the IRC or drop by our forums and leave a post.
-#
-#IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
-#Forums: http://www.spigotmc.org/
+# This is the main configuration file for Spigot.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+# For a reference for any variable inside this file, check out the Spigot wiki at
+# http://www.spigotmc.org/wiki/spigot-configuration/
+# 
+# If you need help with the configuration or have any questions related to Spigot,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
+# Forums: http://www.spigotmc.org/
 
 config-version: 12
 messages:
@@ -19,7 +19,6 @@ messages:
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
 settings:
-  log-named-deaths: true
   debug: false
   moved-too-quickly-multiplier: 10.0
   timeout-time: 60
@@ -63,9 +62,6 @@ players:
   disable-saving: false
 world-settings:
   default:
-    below-zero-generation-in-existing-chunks: true
-    thunder-chance: 100000
-    simulation-distance: default
     verbose: true
     enable-zombie-pigmen-portal-spawns: true
     view-distance: default
